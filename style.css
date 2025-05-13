@@ -1,0 +1,57 @@
+ .nav-arrow {
+      width: 50px;
+      height: 50px;
+      border: 1px solid #b0b8c0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: transparent;
+      color: #7f8c8d;
+      font-size: 24px;
+      transition: all 0.3s ease;
+    }
+
+    .nav-arrow:hover {
+      background-color: #f8f9fa;
+      color: #000;
+      cursor: pointer;
+    }
+
+    .hero-section {
+      height: 100vh;
+      background: linear-gradient(to right, rgba(255, 255, 255, 0.95) 50%, rgba(255, 255, 255, 0.3)), url('https://via.placeholder.com/600x600') no-repeat center right;
+      background-size: cover;
+      display: flex;
+      align-items: center;
+      position: relative;
+    }
+
+    .sub-title {
+      color: #e63946;
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    .main-title {
+      font-size: 3rem;
+      font-weight: 800;
+      color: #000;
+    }
+
+    .hero-text {
+      max-width: 600px;
+    }
+
+    .service-btn {
+      background-color: #f9264c;
+      color: #fff;
+      border: none;
+      padding: 12px 30px;
+      font-weight: 500;
+      margin-top: 20px;
+    }
+
+    .service-btn:hover {
+      background-color: #e31b3d;
+    }
