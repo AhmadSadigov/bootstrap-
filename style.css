@@ -13,7 +13,7 @@
 
 .main-text {
   color: #fff;
-  font: 100 13px "Roboto";
+  font: 300 13px "Roboto";
 }
 
 .fa-clock {
@@ -51,4 +51,15 @@
   color: #0d2d3e !important;
   padding: 39px 19px !important;
   font: 400 16px "Poppins" , "sans-serif";
+}
+.second-section{
+  background-image: url("img/hero-img.webp");
+  background-position: center;
+  height: 100vh;
+}
+.karusel{
+  height: 100vh !important;
+}
+.carousel-control-prev{
+  border: solid 1px black;
 }
