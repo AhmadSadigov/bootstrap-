@@ -38,50 +38,11 @@
   color: #e94d65;
 }
 
+.href {
+  color: #000;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* .second-section {
+.second-section {
   background-image: url("img/hero-img.webp");
   background-position: center;
   height: 100vh;
@@ -89,10 +50,6 @@
 
 .karusel {
   height: 100vh !important;
-}
-
-.carousel-control-prev {
-  border: solid 1px black;
 }
 
 .first-text {
@@ -152,4 +109,4 @@
 .btn-danger:hover::before {
   width: 100%;
   color: black !important;
-} */
+}
