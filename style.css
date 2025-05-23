@@ -1,25 +1,13 @@
-.header-area {
-  height: 50px;
-  background-color: #0d2d3e;
-}
-
-.space {
-  width: 10px;
-}
-
-#time_counter {
-  display: flex;
-}
-
-.main-text {
-  color: #fff;
-  font: 300 13px "Roboto";
+.header-top-area {
+  background-color: #0d2d3e !important;
 }
 
 .fa-clock {
   color: #e94d65;
-  width: 12px;
-  height: 12px !important;
+}
+
+.header-top-text {
+  color: #fff;
 }
 
 .fa-facebook-f,
@@ -27,47 +15,85 @@
 .fa-linkedin-in,
 .fa-google-plus-g {
   color: #fff;
-  transition: transform .6s;
-  transition: .6s;
-  transform-style: preserve-3d;
-}
-
-.fa-google-plus-g:hover {
-  transform: rotateY(180deg);
-  color: #ff2143;
+  transition: .4s;
 }
 
 .fa-facebook-f:hover {
   transform: rotateY(180deg);
-  color: #ff2143;
+  color: #e94d65;
 }
 
 .fa-twitter:hover {
   transform: rotateY(180deg);
-  color: #ff2143;
+  color: #e94d65;
 }
 
 .fa-linkedin-in:hover {
   transform: rotateY(180deg);
-  color: #ff2143;
+  color: #e94d65;
 }
 
-.nav-link {
-  color: #0d2d3e !important;
-  padding: 39px 19px !important;
-  font: 400 16px "Poppins", "sans-serif";
+.fa-google-plus-g:hover {
+  transform: rotateY(180deg);
+  color: #e94d65;
 }
 
-.second-section {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .second-section {
   background-image: url("img/hero-img.webp");
   background-position: center;
-  background-repeat: no-repeat;
   height: 100vh;
 }
 
 .karusel {
   height: 100vh !important;
-} 
+}
+
+.carousel-control-prev {
+  border: solid 1px black;
+}
 
 .first-text {
   font-size: 18px;
@@ -99,22 +125,31 @@
 .btn-danger {
   width: 230px !important;
   height: 70px !important;
-  padding: 15px !important;
-  transition: 0.3 ease;
+  border-radius: 0 !important;
+  text-align: center;
 }
 
- .btn-danger:hover {
-  border: 0 !important;
-  padding: 15px;
+.btn-danger:hover {
   background-color: rgb(255, 255, 255) !important;
   color: #000 !important;
-} 
+  border: 0 !important;
+}
 
-.carousel-control-next-icon,
-.carousel-control-prev-icon {
-  border: 1px solid black;
-  padding: 25px !important;
+.btn-danger::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background-color: rgb(255, 255, 255);
+  z-index: -1;
+  transition: width 0.3s ease;
+  color: black !important;
+  border: 0 !important;
 }
-.third-section{
-  height: 100vh;
-}
+
+.btn-danger:hover::before {
+  width: 100%;
+  color: black !important;
+} */
