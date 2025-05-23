@@ -31,35 +31,90 @@
   transition: .6s;
   transform-style: preserve-3d;
 }
+
 .fa-google-plus-g:hover {
   transform: rotateY(180deg);
   color: #ff2143;
 }
-.fa-facebook-f:hover{
+
+.fa-facebook-f:hover {
   transform: rotateY(180deg);
-   color: #ff2143;
+  color: #ff2143;
 }
-.fa-twitter:hover{
+
+.fa-twitter:hover {
   transform: rotateY(180deg);
-   color: #ff2143;
+  color: #ff2143;
 }
-.fa-linkedin-in:hover{
+
+.fa-linkedin-in:hover {
   transform: rotateY(180deg);
-   color: #ff2143;
+  color: #ff2143;
 }
-.nav-link{
+
+.nav-link {
   color: #0d2d3e !important;
   padding: 39px 19px !important;
-  font: 400 16px "Poppins" , "sans-serif";
+  font: 400 16px "Poppins", "sans-serif";
 }
-.second-section{
+
+.second-section {
   background-image: url("img/hero-img.webp");
   background-position: center;
+  background-repeat: no-repeat;
   height: 100vh;
 }
-.karusel{
+
+.karusel {
   height: 100vh !important;
+} 
+
+.first-text {
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  margin-bottom: 22px;
+  text-transform: uppercase;
+  color: #eb566c;
+  position: relative;
 }
-.carousel-control-prev{
-  border: solid 1px black;
+
+.second-text {
+  letter-spacing: 1px;
+  line-height: 1.2;
+  font: 800 60px "Sarabun";
+  margin-bottom: 14px;
+  max-width: 530px;
+  color: #000000;
+  margin-bottom: 33px;
+}
+
+.third-text {
+  margin-bottom: 50px;
+  font-size: 16px;
+  color: #000;
+  font-family: "Roboto", sans-serif;
+}
+
+.btn-danger {
+  width: 230px !important;
+  height: 70px !important;
+  padding: 15px !important;
+  transition: 0.3 ease;
+}
+
+ .btn-danger:hover {
+  border: 0 !important;
+  padding: 15px;
+  background-color: rgb(255, 255, 255) !important;
+  color: #000 !important;
+} 
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  border: 1px solid black;
+  padding: 25px !important;
+}
+.third-section{
+  height: 100vh;
 }
